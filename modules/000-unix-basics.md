@@ -106,6 +106,10 @@ rm kiwi.txt                                       # Remove txt file
 ls
 ```
 
+#### Result:
+
+![case1_result](../assets/md-00-case1.png)
+
 ### Case 2. Data Pipelines & Redirection
 
 **Scenario:**
