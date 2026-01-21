@@ -1,4 +1,4 @@
-# Curriculum name
+# Python environment
 
 * Module: [LPC-001](001-python-environment.md)
 * Date: 2026-01-21
