@@ -85,12 +85,12 @@ Defines mechanisms to ensure process visibility and comply with the multi-user s
 
 ### Case 1. Navigation & Operation
 
-**Scenario:**
+#### Scenario:
 > 1. Create a `fruits` directory and generate `apple.txt`, `banana.txt`, `orange.txt`, and `kiwi.txt`.
 > 2. Rename `orange.txt` to `fruit_names.txt`.
 > 3. Delete `kiwi.txt`.
 
-**Execution:**
+#### Execution:
 ```bash
 # mkdir fruits && cd fruits
 # $_ is a special parameter for the last argument of the previous command.
@@ -109,14 +109,14 @@ ls
 
 ### Case 2. Data Pipelines & Redirection
 
-**Scenario:**
+#### Scenario:
 > 1. Write "Yellow Fruit" into `banana.txt`.
 > 2. Write "Red Fruit" into `apple.txt`.
 > 3. Append "Apple pie" to `apple.txt`.
 > 4. Save the current file list to `fruit_names.txt`.
 > 5. Filter files containing '`b`' and generate `filtered_fruits.txt`.
 
-**Execution:**
+#### Execution:
 ```bash
 echo "Yellow Fruit" > banana.txt                 # Create and write content
 echo "Red Fruit" > apple.txt                     # Create and write content
