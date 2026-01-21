@@ -1,11 +1,11 @@
 # Unix Basics
 
-* **Module:** [CC-000](000-unix-basics.md)
+* **Module:** [LPC-000](000-unix-basics.md)
 * **Date:** 2026-01-20
 * **Environment:** macOS Sequoia / iTerm2
 
 ## 📝 Introduction 
-This module covers core Unix operations, including shell navigation, data stream processing, and resource management. The goal is to build an efficient workflow in a CLI environment.
+This module covers core Unix operations, including shell navigation, data stream processing, and resource management.
 
 ## 🎯 Objectives
 * Understand fundamental Unix shell navigation.
@@ -41,7 +41,6 @@ The Unix filesystem uses a hierarchical tree structure where "everything is a fi
 > **`rm -rf` (Recursive & Force)**
 > Deletes directories recursively without confirmation. Use with extreme caution.
 
----
 
 ### Data Pipelines & Redirection
 Construct powerful data processing lines by redirecting standard streams.
@@ -57,7 +56,6 @@ Construct powerful data processing lines by redirecting standard streams.
 * **Pipe (`|`) Optimization**: Transfers data directly in memory without intermediate files. Reduces disk I/O costs.
 * **Redirection (`>`) vs (`>>`)**: `>` overwrites existing data. Use `>>` for critical logs to prevent data loss.
 
----
 
 ### Process & Security
 Defines mechanisms to ensure process visibility and comply with the multi-user security model.
@@ -82,7 +80,6 @@ Defines mechanisms to ensure process visibility and comply with the multi-user s
 > Permissions are calculated as an octal sum: `Read(4)` + `Write(2)` + `Execute(1)`. 
 > Example: `7(4+2+1)` is full access; `5(4+0+1)` is Read and Execute only.
 
----
 
 ## 💻 Hands-on Implementation
 
@@ -167,7 +164,7 @@ kill -15 [PID]         # Terminate process safely
 #### Scenario:
 > 1. Create `secret_note.txt` and check default permissions.
 > 2. Block all access for `Group` and `Others` using Numeric Mode.
-> 3. Verify the permission bitmask (`-rw-------`).
+> 3. Verify the permission bitmask.
 
 #### Execution:
 

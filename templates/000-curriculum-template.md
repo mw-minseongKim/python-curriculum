@@ -1,6 +1,6 @@
 # Curriculum name
 
-* Module: [CC-NNN](NNN-filename.md)
+* Module: [LPC-NNN](NNN-filename.md)
 * Date: 2026-01-20
 * Environment: macOS Sequoia / Iterm2
 
