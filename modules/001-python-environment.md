@@ -2,7 +2,7 @@
 
 * Module: [LPC-001](001-python-environment.md)
 * Date: 2026-01-21
-* Environment: macOS Sequoia / Iterm2
+* Environment: macOS Sequoia / Iterm2 / Python 3.12.0
 
 ## 📝 Introduction 
 
